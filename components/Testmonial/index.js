@@ -15,7 +15,7 @@ const sliders = [
         images: '/images/testimonial/2.png',
         title: 'Jhony Goaver',
         subTitle: 'CEO of American BDS'
-    }
+    } 
 ]
 const settings = {
     dots: true,
