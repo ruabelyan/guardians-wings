@@ -75,11 +75,7 @@ const Home = () => {
                 subTitle="Here Our Best Work"
                 portfolioItem={portfolio}
             /> */}
-              <TeamMember
-                title="Gallery "
-                // subTitle="Meet Our Experts"
-                slider={true}
-            />
+            
             <Testmonial className="bgWhite" />
             <ContactArea />
           

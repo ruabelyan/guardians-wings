@@ -33,6 +33,7 @@
         "redux-thunk": "^2.3.0",
         "sass": "^1.49.9",
         "slick-carousel": "^1.8.1",
-        "superagent": "^7.0.2"
+        "superagent": "^7.0.2",
+        "yup": "^0.32.11"
     }
 }
