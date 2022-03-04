@@ -19,8 +19,8 @@ const Contact = () => {
             <Breadcumb
                 className="breadcumbArea"
                 title="Contact"
-                breadcumbMenu={breadcumbMenu}
-                background="/images/breadcumb/1.jpg"
+                breadcumbMenu={breadcumbMenu} 
+                background="/images/breadcumb/1.jpg" 
             />
   
             <Grid className="contactusPageArea">
