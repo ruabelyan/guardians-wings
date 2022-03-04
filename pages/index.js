@@ -58,7 +58,7 @@ const Home = () => {
                 <title>Home page</title>
             </Head>
             <HeroSlider />
-            {/* <Service className="bgColor" /> */}
+            <Service className="bgColor" />
             <About
                 title="WELCOME TO Guardian Wings Security!"
                 images="/images/about/2.jpg"
@@ -75,15 +75,16 @@ const Home = () => {
                 subTitle="Here Our Best Work"
                 portfolioItem={portfolio}
             /> */}
-            {/* <Testmonial /> */}
-            <ContactArea />
-            <TeamMember
+              <TeamMember
                 title="Gallery "
                 // subTitle="Meet Our Experts"
                 slider={true}
             />
-            {/* <CounterArea /> */}
-            {/* <BlogArea
+            <Testmonial className="bgWhite" />
+            <ContactArea />
+          
+            {/* <CounterArea />
+            <BlogArea
                 title="Latest News"
                 subTitle="From Our Blog"
             /> */}
