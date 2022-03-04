@@ -31,7 +31,7 @@ const teams = [
                 text: 'Siniour Lawyer'
             },
             {
-                level: 'Practice Area: ',
+                level: 'Services Area: ',
                 text: 'Family Lawyer, Criminal Defence, Personal Injury'
             },
             {
@@ -74,7 +74,7 @@ const teams = [
                 text: 'Siniour Lawyer'
             },
             {
-                level: 'Practice Area: ',
+                level: 'Services Area: ',
                 text: 'Family Lawyer, Criminal Defence, Personal Injury'
             },
             {
@@ -117,7 +117,7 @@ const teams = [
                 text: 'Siniour Lawyer'
             },
             {
-                level: 'Practice Area: ',
+                level: 'Services Area: ',
                 text: 'Family Lawyer, Criminal Defence, Personal Injury'
             },
             {
@@ -160,7 +160,7 @@ const teams = [
                 text: 'Siniour Lawyer'
             },
             {
-                level: 'Practice Area: ',
+                level: 'Services Area: ',
                 text: 'Family Lawyer, Criminal Defence, Personal Injury'
             },
             {
@@ -203,7 +203,7 @@ const teams = [
                 text: 'Siniour Lawyer'
             },
             {
-                level: 'Practice Area: ',
+                level: 'Services Area: ',
                 text: 'Family Lawyer, Criminal Defence, Personal Injury'
             },
             {
@@ -246,7 +246,7 @@ const teams = [
                 text: 'Siniour Lawyer'
             },
             {
-                level: 'Practice Area: ',
+                level: 'Services Area: ',
                 text: 'Family Lawyer, Criminal Defence, Personal Injury'
             },
             {
