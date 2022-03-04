@@ -62,12 +62,12 @@ const Home = () => {
             <About
                 title="WELCOME TO Guardian Wings Security!"
                 images="/images/about/2.jpg"
-                signature="/images/about/1.png"
+                // signature="/images/about/1.png"
                 pragraphs={aboutText}
             />
             <ServiceArea
                 title="How Can We Help You"
-                subTitle="Area Of Practice"
+                // subTitle="Area Of Services"
                 className="bgWhite"
             />
             {/* <Portfolio

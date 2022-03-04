@@ -16,11 +16,11 @@ const Team = () => {
             <Head>
                 <title>Attorneys</title>
             </Head>
-            <Breadcumb
+            {/* <Breadcumb
                 title="Patrol Division"
                 breadcumbMenu={breadcumbMenu}
                 background='/images/breadcumb/1.jpg'
-            />
+            /> */}
             <TeamMember
                 title="Qualified Attorneys "
                 subTitle="Meet Our Experts"

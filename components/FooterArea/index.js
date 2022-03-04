@@ -11,7 +11,7 @@ const footerLinks = [
       { name: "Home", route: "/" },
       { name: "About", route: "about" },
       { name: "Services", route: "service" },
-      { name: "Patrol Division", route: "patrol-service" },
+      // { name: "Patrol Division", route: "patrol-service" },
     ],
   },
   {
@@ -41,13 +41,13 @@ const FooterArea = () => {
             <Grid className="footerLogo">
               <Link href="/">
                 <a>
-                  <img src="/images/logo/logo4.png" alt="logo" />
+                  <img style={{ objectFit:'contain'}} src="/images/logo/logo4.png" alt="logo" />
                 </a>
               </Link>
-              <p>
+              {/* <p>
                 Octavian continue to be one of the most innovative and
                 progressive security-led businesses in the world.
-              </p>
+              </p> */}
             </Grid>
           </Grid>
           {footerLinks.map((menu, i) => (

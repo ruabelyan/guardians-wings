@@ -75,7 +75,7 @@ const ServiceDetails = ({ id }) => {
     const service = getPostDataById(id);
     const breadcumbMenu = [
         { name: 'Home', route: '/' },
-        { name: 'Practice', route: '/practice' },
+        { name: 'Services', route: '/practice' },
         { name: service.title }
     ]
     return (

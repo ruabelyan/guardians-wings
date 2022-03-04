@@ -73,7 +73,7 @@ const BlogDetails = ({ id }) => {
     const blog = getPostDataById(id);
     const breadcumbMenu = [
         { name: 'Home', route: '/' },
-        { name: 'Practice', route: '/practice' },
+        { name: 'Services', route: '/practice' },
         { name: blog.title }
     ]
     return (

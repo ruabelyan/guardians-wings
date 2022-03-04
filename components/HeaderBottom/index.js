@@ -28,7 +28,7 @@ const HeaderBottom = props => {
                         <Grid className="logo">
                             <Link href="/">
                                 <a>
-                                    <img src="/images/logo/logo4.png" alt="logo" />
+                                    <img style={{objectFit:'contain'}} src="/images/logo/logo4.png" alt="logo" />
                                 </a>
                             </Link>
                         </Grid>
@@ -52,8 +52,8 @@ const HeaderBottom = props => {
                             <li><Link href='/about'><a className={router.pathname == "/about" ? "active" : ""}>About</a></Link></li>
                             <li><Link href='/services'><a className={router.pathname == "/services" || router.pathname == "/services/[id]" ? "active" : ""}>Services</a></Link></li>
                             {/* <li><Link href='/case-stadies'><a className={router.pathname == "/case-stadies" || router.pathname == "/case-stadies/[id]" ? "active" : ""}>Cases</a></Link></li> */}
-                            {/* <li><Link href='/blog'><a className={router.pathname == "/blog" || router.pathname == "/blog/[id]" ? "active" : ""}>Blog</a></Link></li> */}
-                            <li><Link href='/patrol-division'><a className={router.pathname == "/patrol-division" || router.pathname == "/patrol-division/[id]" ? "active" : ""}>Patrol Division</a></Link></li>
+                            <li><Link href='/blog'><a className={router.pathname == "/blog" || router.pathname == "/blog/[id]" ? "active" : ""}>Blog</a></Link></li>
+                            {/* <li><Link href='/patrol-division'><a className={router.pathname == "/patrol-division" || router.pathname == "/patrol-division/[id]" ? "active" : ""}>Patrol Division</a></Link></li> */}
                             <li><Link href='/contact'><a className={router.pathname == "/contact" ? "active" : ""}>Contact</a></Link></li>
                         </ul>
                     </Grid>
