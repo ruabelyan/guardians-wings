@@ -10,14 +10,14 @@ import NewsLetter from '../../components/Newsletter'
 
 const breadcumbMenu = [
     { name: 'Home', route: '/' },
-    { name: 'Services area' }
+    { name: 'Practice area' }
 ]
 
-const Services = () => {
+const Practice = () => {
     return (
         <Fragment>
             <Head>
-                <title>Services</title>
+                <title>Practice</title>
             </Head>
             {/* <Breadcumb
                 title="PROFESSIONAL SERVICES TAILORED TO YOUR EVENT"
@@ -28,12 +28,12 @@ const Services = () => {
             {/* <ServiceArea
                 className="ourServiceAreaStyleThree bgFFF"
                 title="Armed Security Guards"
-                subTitle="Area Of Services"
+                subTitle="Area Of Practice"
             /> */}
              <ServiceArea
                 className="ourServiceAreaStyleTwo"
                 title="PROFESSIONAL SERVICES TAILORED TO YOUR EVENT"
-                // subTitle="Area Of Services"
+                // subTitle="Area Of Practice"
             />
             {/* <PricingTable
                 title="Pricing Table"
@@ -46,4 +46,4 @@ const Services = () => {
         </Fragment>
     )
 }
-export default Services
+export default Practice

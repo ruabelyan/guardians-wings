@@ -77,7 +77,7 @@ const CaseStadiesDetails = ({ id }) => {
     const profile = getPostDataById(id);
     const breadcumbMenu = [
         { name: 'Home', route: '/' },
-        { name: 'Services', route: '/practice' },
+        { name: 'Practice', route: '/practice' },
         { name: profile.title }
     ]
     return (

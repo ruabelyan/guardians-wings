@@ -42,7 +42,7 @@ const AboutPage = () => {
             {/* <ServiceArea
                 className="ourServiceAreaStyleTwo"
                 title="PROFESSIONAL SERVICES TAILORED TO YOUR EVENT"
-                // subTitle="Area Of Services"
+                // subTitle="Area Of Practice"
             /> */}
             {/* <Testmonial /> */}
             {/* <CounterArea

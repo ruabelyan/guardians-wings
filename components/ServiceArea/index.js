@@ -2,17 +2,17 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import Link from "next/link";
 import { Parallax } from "react-parallax";
-import AcUnitOutlined from "@material-ui/icons/AcUnitOutlined";
-import Camera from "@material-ui/icons/Camera";
+import PeopleAltTwoToneIcon from "@material-ui/icons/PeopleAltTwoTone";
+import PermIdentityTwoToneIcon from "@material-ui/icons/PermIdentityTwoTone";
 import AccessibilityTwoToneIcon from "@material-ui/icons/AccessibilityTwoTone";
-import AssignmentIndTwoToneIcon from "@material-ui/icons/AccessTimeOutlined";
-// import HomeWorkTwoToneIcon from "@material-ui/icons/HomeWorkTwoTone";
+import AssignmentIndTwoToneIcon from "@material-ui/icons/AssignmentIndTwoTone";
+import HomeWorkTwoToneIcon from "@material-ui/icons/HomeWorkTwoTone";
 import CastForEducationTwoToneIcon from "@material-ui/icons/CastForEducationTwoTone";
 import SectionTitle from "../Title";
 
 const services = [
   {
-    icon: <AcUnitOutlined />,
+    icon: <PeopleAltTwoToneIcon />,
     title: "Armed security services",
     content: (
       <>
@@ -24,7 +24,7 @@ const services = [
     id: 1,
   },
   {
-    icon: <Camera />,
+    icon: <PermIdentityTwoToneIcon />,
     title: "Unarmed security services",
     content:
       "Are you unsure if armed or unarmed security guards are right for your business? We know that deciding on a security service is a big decision.  ",
@@ -44,12 +44,12 @@ const services = [
       "If you’re a VIP, executive, celebrity, rapper, artist, politician, banker or just looking for personal protection and are looking to hire a bodyguard, Fast Guard Service offers the expertise.",
     id: 4,
   },
-  {
-      icon: <CastForEducationTwoToneIcon />,
-      title: 'Patrol Division',
-      content: 'The patrol division is the most visible division of the Police Department. It consists of 58 uniformed police officers who usually drive a marked police car or motorcycle. ',
-      id: 5
-  },
+  // {
+  //     icon: <CastForEducationTwoToneIcon />,
+  //     title: 'Education Law',
+  //     content: 'It is a long established fact that a reader will be distracted by the readable content of ',
+  //     id: 5
+  // },
   // {
   //     icon: <HomeWorkTwoToneIcon />,
   //     title: 'Real Estate Law',

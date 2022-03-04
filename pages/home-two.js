@@ -69,7 +69,7 @@ const HomePageTwo = () => {
             <ServiceArea
                 className="ourServiceAreaStyleTwo"
                 title="How Can We Help You"
-                // subTitle="Area Of Services"
+                subTitle="Area Of Practice"
             />
             {/* <Portfolio
                 title="Our Resent Case Studies"
