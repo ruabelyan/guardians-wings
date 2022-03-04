@@ -22,7 +22,7 @@ const Contact = () => {
                 breadcumbMenu={breadcumbMenu}
                 background="/images/breadcumb/1.jpg"
             />
-
+  
             <Grid className="contactusPageArea">
                 <Grid container spacing={4} className="container">
                     <Grid item md={7} xs={12}>
