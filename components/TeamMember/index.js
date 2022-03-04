@@ -151,10 +151,10 @@ const TeamMember = ({ className = '', title, subTitle, slider, noGutters }) => {
                             {teams.map((team, i) => (
                                 <Grid key={i} className="teamWrapper">
                                     <Grid className="teamImage">
-                                       <img src={team.image} alt={team.name} />
+                                        <Link as={`/attorneys/${team.id}`} href={`/attorneys/[id]`}><a><img src={team.image} alt={team.name} /></a></Link>
                                     </Grid>
                                     <Grid className="teamContent">
-                                        <h3> {team.name}</h3>
+                                        <h3> <Link as={`/attorneys/${team.id}`} href={`/attorneys/[id]`}><a>{team.name}</a></Link></h3>
                                         <span>{team.level}</span>
                                         <ul>
                                             {team.socialMedia.map(social => (
