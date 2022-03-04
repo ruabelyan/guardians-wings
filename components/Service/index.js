@@ -8,18 +8,21 @@ import PeopleAltTwoToneIcon from '@material-ui/icons/PeopleAltTwoTone';
 const services = [
     {
         icon: <PersonOutlineTwoToneIcon />,
-        subtitle: 'Book Your',
-        title: 'Appointment'
+        // subtitle: 'Book Your',
+        title: 'GUARD SECURITY SERVICES',
+        text: 'Whether you need Armed or Unarmed Security Officers for a small business or major corporation, we can meet all your security needs.'
     },
     {
         icon: <HourglassFullTwoToneIcon />,
-        subtitle: 'Get Free',
-        title: 'Expert Advice'
+        // subtitle: 'OUR SECURITY OFFICERS',
+        title: 'OUR SECURITY OFFICERS',
+        text: 'Our Security Officers are trained and licensed and meet all state requirements set by the California Bureau of Security.'
     },
     {
         icon: <PeopleAltTwoToneIcon />,
-        subtitle: 'You Can Easily',
-        title: 'Join Our Team'
+        // subtitle: 'You Can Easily',
+        title: 'MANAGEMENT TEAM',
+        text: 'Our management team works directly with each client to provide a custom-tailored security program to meet all requirements.'
     },
 ]
 const Service = ({ className = '' }) => {
@@ -38,7 +41,11 @@ const Service = ({ className = '' }) => {
                             </Grid>
                             <Grid className="serviceText">
                                 <span>{service.subtitle}</span>
-                                <h3>{service.title}</h3>
+                                <h4>{service.title}</h4>
+                            </Grid>
+                            <Grid className="serviceTexts">
+                                {service.text}
+
                             </Grid>
                         </Grid>
                     </Grid>

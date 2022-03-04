@@ -45,7 +45,7 @@ body {
   h4,
   h5,
   h6 {
-    font-family: "Playfair Display", serif;
+    font-family: inherit;
     color: #282e3f;
   }
 
@@ -1994,6 +1994,8 @@ body {
     flex-wrap: wrap;
     box-sizing: border-box;
 
+   
+
     .serviceIcon {
       background: #cea215;
       height: 100px;
@@ -2011,6 +2013,7 @@ body {
       }
     }
 
+  
     .serviceText {
       padding: 23px 25px;
       width: calc(100% - 95px);
@@ -2029,6 +2032,12 @@ body {
           font-size: 20px;
         }
       }
+    }
+    .serviceTexts {
+      padding: 20px;
+      font-size: 15px;
+      font-family: inherit;
+      color: #777;
     }
   }
 
@@ -2844,6 +2853,7 @@ body {
             font-size: 20px;
             display: inline-block;
             margin-right: 3px;
+            
 
             @media (max-width: 1024px) {
               font-size: 16px;
@@ -3036,4 +3046,20 @@ body {
 
 img {
   object-fit: cover;
+}
+
+.custom-grid {
+  padding: 10px; 
+  text-align: 'center';
+  color: red
+}
+.serviceContentCustom {
+  display: flex;
+  align-items:center;
+}
+
+.customSvgSize {
+  svg {
+    font-size: 60px !important
+  }
 }

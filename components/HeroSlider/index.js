@@ -9,21 +9,21 @@ const heroSliders = [
     {
         images: '/images/slider/slide-5.jpg',
         title: 'WORK HARD, FEEL SAFE',
-        subTitle: 'As Like A Friend.',
+        // subTitle: 'As Like A Friend.',
         text: 'LOCAL RESPONSE BACKED BY NATIONAL SUPPORT',
         button: 'Contact us now'
     },
     {
         images: '/images/slider/slide-1.jpg',
         title: 'BE SURE YOUR FAMILY IS SAFE',
-        subTitle: 'As Like A Friend.',
+        // subTitle: 'As Like A Friend.',
         text: 'LOCAL RESPONSE BACKED BY NATIONAL SUPPORT',
         button: 'Contact us now'
     },
     {
-        images: '/images/slider/slide-2.jpg',
+        images: '/images/slider/slide-4.jpg',
         title: 'WE KNOW HOW TO PROTECT YOUR BUSINESS',
-        subTitle: 'As Like A Friend.',
+        // subTitle: 'As Like A Friend.',
         text: 'LOCAL RESPONSE BACKED BY NATIONAL SUPPORT',
         button: 'Contact us now'
     },
