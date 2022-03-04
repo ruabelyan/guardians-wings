@@ -11,7 +11,7 @@ import CounterArea from '../components/CounterArea'
 import BlogArea from '../components/BlogArea'
 import NewsLetter from '../components/Newsletter'
 
-const aboutText = ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at', 'and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum'
+const aboutText = ['Executive Event Services is proud to have been in business since 1988. This has allowed the company to gain extensive experience in managing the security, event staffing, and parking management at multiple large-scale special events and major venues throughout the country. Over the past 30+ years, EES has gained an unparalleled reputation for providing the best personalized service in the industry. This success has been achieved by providing superior supervision, requiring the proper credentials for all our personnel, and continually offering training courses for continued learning.'
 ]
 const breadcumbMenu = [
     { name: 'Home', route: '/' },
@@ -32,28 +32,28 @@ const AboutPage = () => {
             {/* <Service className="bgColor" /> */}
             <About
                 className="aboutAreaStyleTwo"
-                title="Why You Need Us"
-                subTitle="We Are Expert"
+                title="History"
+                // subTitle="We Are Expert"
                 images="/images/about/1.jpg"
                 videoId="XxVg_s8xAms"
                 pragraphs={aboutText}
                 changeOrder="changeOrder"
             />
-            <ServiceArea
+            {/* <ServiceArea
                 className="ourServiceAreaStyleTwo"
-                title="How Can We Help You"
-                subTitle="Area Of Practice"
-            />
-            <Testmonial />
+                title="PROFESSIONAL SERVICES TAILORED TO YOUR EVENT"
+                // subTitle="Area Of Practice"
+            /> */}
+            {/* <Testmonial /> */}
             {/* <CounterArea
                 fullWidth={true}
                 className="counterAreaStyleTwo"
             /> */}
-            <TeamMember
+            {/* <TeamMember
                 title="Qualified Attorneys "
                 subTitle="Meet Our Experts"
                 slider={true}
-            />
+            /> */}
             {/* <BlogArea className="blogArea"
                 title="Latest News"
                 subTitle="From Our Blog"

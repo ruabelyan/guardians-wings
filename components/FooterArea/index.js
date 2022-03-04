@@ -6,7 +6,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 const footerLinks = [
   {
-    title: "Quick Link",
+    title: "Navigation",
     menus: [
       { name: "Home", route: "/" },
       { name: "About", route: "about" },

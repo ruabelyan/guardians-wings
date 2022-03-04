@@ -27,21 +27,21 @@ const services = [
     icon: <PermIdentityTwoToneIcon />,
     title: "Unarmed security services",
     content:
-      "It is a long established fact that a reader will be distracted by the readable content of ",
+      "Are you unsure if armed or unarmed security guards are right for your business? We know that deciding on a security service is a big decision.  ",
     id: 2,
   },
   {
     icon: <AccessibilityTwoToneIcon />,
     title: "Mobile Patrol security",
     content:
-      "It is a long established fact that a reader will be distracted by the readable content of ",
+      "Whether you need to secure an office building, a mall, or a warehouse, you can depend on our mobile patrol units.In addition to patrolling and securing sites.",
     id: 3,
   },
   {
     icon: <AssignmentIndTwoToneIcon />,
     title: "Bodyguard services",
     content:
-      "It is a long established fact that a reader will be distracted by the readable content of ",
+      "If you’re a VIP, executive, celebrity, rapper, artist, politician, banker or just looking for personal protection and are looking to hire a bodyguard, Fast Guard Service offers the expertise.",
     id: 4,
   },
   // {

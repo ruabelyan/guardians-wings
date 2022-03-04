@@ -17,7 +17,7 @@ const Team = () => {
                 <title>Attorneys</title>
             </Head>
             <Breadcumb
-                title="Our Attorneys"
+                title="Patrol Division"
                 breadcumbMenu={breadcumbMenu}
                 background='/images/breadcumb/1.jpg'
             />

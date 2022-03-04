@@ -7,21 +7,7 @@ import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
 
 const heroSliders = [
     {
-        images: '/images/slider/slide-4.jpg',
-        title: 'We Fight For Your Justice',
-        subTitle: 'As Like A Friend.',
-        text: 'The Most Talented Law Frim',
-        button: 'Contact us now'
-    },
-    {
         images: '/images/slider/slide-5.jpg',
-        title: 'We Fight For Your Justice',
-        subTitle: 'As Like A Friend.',
-        text: 'The Most Talented Law Frim',
-        button: 'Contact us now'
-    },
-    {
-        images: '/images/slider/slide-2.jpg',
         title: 'We Fight For Your Justice',
         subTitle: 'As Like A Friend.',
         text: 'The Most Talented Law Frim',
@@ -34,6 +20,20 @@ const heroSliders = [
         text: 'The Most Talented Law Frim',
         button: 'Contact us now'
     },
+    {
+        images: '/images/slider/slide-2.jpg',
+        title: 'We Fight For Your Justice',
+        subTitle: 'As Like A Friend.',
+        text: 'The Most Talented Law Frim',
+        button: 'Contact us now'
+    },
+    // {
+    //     images: '/images/slider/slide-1.jpg',
+    //     title: 'We Fight For Your Justice',
+    //     subTitle: 'As Like A Friend.',
+    //     text: 'The Most Talented Law Frim',
+    //     button: 'Contact us now'
+    // },
 ]
 
 const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (

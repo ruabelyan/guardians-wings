@@ -13,7 +13,7 @@ import CounterArea from '../components/CounterArea'
 import BlogArea from '../components/BlogArea'
 import NewsLetter from '../components/Newsletter'
 
-const aboutText = ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at', 'and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum'
+const aboutText = ['Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at', ' Our management team has a strong background in law enforcement, business management, specialized event security consulting and designing customized access control plans. Our philosophy of striving for continual excellence has given us the opportunity to build strong relationships with operators of major venues including baseball, football, basketball, soccer, colleges, universities, and many different convention centers. We have also played an integral role in the planning and development for the security, access control programs, and traffic management for many different special events including music festivals, professional golf, tennis, surfing, cycling, marathons, action sports, trade shows and conventions. Each one of our clients will substantiate the fundamental qualities of honesty and moral integrity that are constant and essential to the operating philosophy of Executive Event Services.'
 ]
 
 const portfolio = [

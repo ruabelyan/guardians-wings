@@ -20,23 +20,28 @@ const Practice = () => {
                 <title>Practice</title>
             </Head>
             <Breadcumb
-                title="Practice Area"
+                title="PROFESSIONAL SERVICES TAILORED TO YOUR EVENT"
                 breadcumbMenu={breadcumbMenu}
                 background='/images/breadcumb/1.jpg'
             />
             {/* <Service className="bgColor" /> */}
-            <ServiceArea
+            {/* <ServiceArea
                 className="ourServiceAreaStyleThree bgFFF"
                 title="Armed Security Guards"
                 subTitle="Area Of Practice"
+            /> */}
+             <ServiceArea
+                className="ourServiceAreaStyleTwo"
+                title="PROFESSIONAL SERVICES TAILORED TO YOUR EVENT"
+                // subTitle="Area Of Practice"
             />
             {/* <PricingTable
                 title="Pricing Table"
                 subTitle="Our Pricing Plan"
             /> */}
-            <Testmonial
+            {/* <Testmonial
                 className="pt100"
-            />
+            /> */}
             {/* <NewsLetter /> */}
         </Fragment>
     )
