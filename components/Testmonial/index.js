@@ -1,8 +1,5 @@
 import React from "react";
-import Slider from "react-slick";
 import { Grid } from '@material-ui/core'
-import FormatQuoteIcon from '@material-ui/icons/FormatQuote';
-import { Parallax } from "react-parallax";
 import SectionTitle from "../Title";
 import PresentToAllTwoTone from "@material-ui/icons/PresentToAllTwoTone";
 import Slideshow from "@material-ui/icons/GradeRounded";
@@ -11,31 +8,6 @@ import AssignmentIndTwoToneIcon from "@material-ui/icons/Fireplace";
 import CastForEducationTwoToneIcon from "@material-ui/icons/BusinessSharp";
 import HomeWorkTwoToneIcon from "@material-ui/icons/GroupWorkSharp";
 
-
-// const sliders = [
-//     {
-//         text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,',
-//         images: '/images/testimonial/2.png',
-//         title: 'Jhony Goaver',
-//         subTitle: 'CEO of American BDS'
-//     },
-//     {
-//         text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,',
-//         images: '/images/testimonial/2.png',
-//         title: 'Jhony Goaver',
-//         subTitle: 'CEO of American BDS'
-//     }
-// ]
-const settings = {
-    dots: true,
-    infinite: true,
-    arrows: false,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-};
 const services = [
     {
         icon: <PresentToAllTwoTone />,
@@ -70,7 +42,7 @@ const services = [
 ];
 
 
-const Testmonial = ({ className = '', title, subTitle }) => {
+const Testmonial = ({ className = '' }) => {
     return (
         <Parallax
             bgImage="/images/practice/1.jpg"
