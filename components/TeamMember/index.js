@@ -12,7 +12,7 @@ import SectionTitle from '../Title'
 
 const teams = [
     {
-        name: 'Alecgander Harry',
+        name: 'California',
         level: 'Business Lawyer',
         image: '/images/expert/1.jpg',
         id: 1,

@@ -14,7 +14,7 @@ import CounterArea from '../components/CounterArea'
 import BlogArea from '../components/BlogArea'
 import NewsLetter from '../components/Newsletter'
 
-const aboutText = ['Octavian continue to be one of the most innovative and progressive security-led businesses in the world, with our broad spectrum of services helping organisations to better manage their security solutions.We have also diversified into facilities management functions, as we see these as exciting growth areas for our business that offer great synergy to our clients’ operational requirements. Our success underpins our determination to continuously improve our services and ensure even greater flexibility and quality assurance for our clients. Whatever the issues you face, we will find solutions, working as your reliable partner.'
+const aboutText = ['Our Los Angeles based company provides security guard services throughout Southern California with highly trained, trustworthy, and licensed security guards. Our professional security guards are licensed by the California Bureau of Security and Investigative Services (BSIS). Performing security services, we strive for growth through our training, experience, and investments in people. We provide our clients with a variety of security services at different locations, for example, on construction sites, hotels, hospitals, nursing homes, parking lots, gated communities, stores, shopping malls, and industrial facilities. It is our pleasure to partner up with clients who are looking for high quality Security Services.'
 ]
 
 const portfolio = [
@@ -60,7 +60,7 @@ const Home = () => {
             <HeroSlider />
             {/* <Service className="bgColor" /> */}
             <About
-                title="About Us"
+                title="WELCOME TO Guardian Wings Security!"
                 images="/images/about/2.jpg"
                 signature="/images/about/1.png"
                 pragraphs={aboutText}
@@ -75,11 +75,11 @@ const Home = () => {
                 subTitle="Here Our Best Work"
                 portfolioItem={portfolio}
             /> */}
-            <Testmonial />
+            {/* <Testmonial /> */}
             <ContactArea />
             <TeamMember
-                title="Qualified Attorneys "
-                subTitle="Meet Our Experts"
+                title="Gallery "
+                // subTitle="Meet Our Experts"
                 slider={true}
             />
             {/* <CounterArea /> */}

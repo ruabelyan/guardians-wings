@@ -19,11 +19,11 @@ const Practice = () => {
             <Head>
                 <title>Practice</title>
             </Head>
-            <Breadcumb
+            {/* <Breadcumb
                 title="PROFESSIONAL SERVICES TAILORED TO YOUR EVENT"
                 breadcumbMenu={breadcumbMenu}
                 background='/images/breadcumb/1.jpg'
-            />
+            /> */}
             {/* <Service className="bgColor" /> */}
             {/* <ServiceArea
                 className="ourServiceAreaStyleThree bgFFF"
