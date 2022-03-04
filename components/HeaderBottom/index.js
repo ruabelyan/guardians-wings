@@ -28,7 +28,7 @@ const HeaderBottom = props => {
                         <Grid className="logo">
                             <Link href="/">
                                 <a>
-                                    <img style={{objectFit:'contain'}} src="/images/logo/logo4.png" alt="logo" />
+                                    <img style={{objectFit:'contain'}} src="/images/logo/logo4.png" alt="logo" /> 
                                 </a>
                             </Link>
                         </Grid>
