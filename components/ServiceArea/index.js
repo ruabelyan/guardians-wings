@@ -44,12 +44,12 @@ const services = [
       "If you’re a VIP, executive, celebrity, rapper, artist, politician, banker or just looking for personal protection and are looking to hire a bodyguard, Fast Guard Service offers the expertise.",
     id: 4,
   },
-  // {
-  //     icon: <CastForEducationTwoToneIcon />,
-  //     title: 'Education Law',
-  //     content: 'It is a long established fact that a reader will be distracted by the readable content of ',
-  //     id: 5
-  // },
+  {
+      icon: <CastForEducationTwoToneIcon />,
+      title: 'Patrol Division',
+      content: 'he uniformed Patrol Division is the most highly visible component of the department. Working 24 hours a day, seven days a week, the Patrol Division represents the bulk of the department’s staffing.',
+      id: 5
+  },
   // {
   //     icon: <HomeWorkTwoToneIcon />,
   //     title: 'Real Estate Law',

@@ -9,9 +9,9 @@ const footerLinks = [
     title: "Navigation",
     menus: [
       { name: "Home", route: "/" },
-      { name: "About", route: "about" },
-      { name: "Services", route: "service" },
-      { name: "Patrol Division", route: "patrol-service" },
+      { name: "About", route: "/about" },
+      { name: "Services", route: "/services" },
+      { name: "Contact", route: "/contact" },
     ],
   },
   {
@@ -21,6 +21,7 @@ const footerLinks = [
       { name: "Unarmed security services", route: "/" },
       { name: "Unarmed security services", route: "/" },
       { name: "Bodyguard services", route: "/" },
+      { name: "Patrol Division services", route: "/" },
     ],
   },
   {
@@ -41,13 +42,13 @@ const FooterArea = () => {
             <Grid className="footerLogo">
               <Link href="/">
                 <a>
-                  <img src="/images/logo/logo4.png" alt="logo" />
+                  <img style={{objectFit:'contain'}} src="/images/logo/logo4.png" alt="logo" />
                 </a>
               </Link>
-              <p>
+              {/* <p>
                 Octavian continue to be one of the most innovative and
                 progressive security-led businesses in the world.
-              </p>
+              </p> */}
             </Grid>
           </Grid>
           {footerLinks.map((menu, i) => (
@@ -58,7 +59,7 @@ const FooterArea = () => {
                   {menu.menus.map((item, i) => (
                     <li key={i}>
                       {item.route ? (
-                        <Link href="/">
+                        <Link href={item.route}>
                           <a>{item.name}</a>
                         </Link>
                       ) : (
