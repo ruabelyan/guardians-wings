@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Joi from 'joi-browser'
 import { Button, Grid, TextField } from '@material-ui/core'
 import { toast } from 'react-toastify';
+import axios from 'axios';
 class Form extends Component {
     state = {
         name: '',
@@ -102,6 +103,10 @@ class Form extends Component {
 
     submitHandler = event => {
         event.preventDefault()
+        const request = this.state
+        delete request.error
+
+        axios.post(`http://localhost:3000/api/contact-us`, request)
         const error = this.validate();
         if (error) {
             this.setState({
@@ -183,21 +188,21 @@ class Form extends Component {
                                         type="address" />
                                 </Grid>
                             ) : (
-                                    <select
-                                        value={this.state.address}
-                                        className="form-control"
-                                        onChange={this.changeHandler}
-                                        name="address">
-                                        {options.map(option => (
-                                            <option
-                                                key={option.value}
-                                                value={option.value}
-                                            >
-                                                {option.level}
-                                            </option>
-                                        ))}
-                                    </select>
-                                )}
+                                <select
+                                    value={this.state.address}
+                                    className="form-control"
+                                    onChange={this.changeHandler}
+                                    name="address">
+                                    {options.map(option => (
+                                        <option
+                                            key={option.value}
+                                            value={option.value}
+                                        >
+                                            {option.level}
+                                        </option>
+                                    ))}
+                                </select>
+                            )}
 
                         </Grid>
                     </Grid>
