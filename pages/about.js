@@ -11,7 +11,7 @@ import CounterArea from '../components/CounterArea'
 import BlogArea from '../components/BlogArea'
 import NewsLetter from '../components/Newsletter'
 
-const aboutText = ['Executive Event Services is proud to have been in business since 1988. This has allowed the company to gain extensive experience in managing the security, event staffing, and parking management at multiple large-scale special events and major venues throughout the country. Over the past 30+ years, EES has gained an unparalleled reputation for providing the best personalized service in the industry. This success has been achieved by providing superior supervision, requiring the proper credentials for all our personnel, and continually offering training courses for continued learning.'
+const aboutText = ['Our Los Angeles based company provides security guard services throughout Southern California with highly trained, trustworthy, and licensed security guards. Our professional security guards are licensed by the California Bureau of Security and Investigative Services (BSIS). Performing security services, we strive for growth through our training, experience, and investments in people. We provide our clients with a variety of security services at different locations, for example, on construction sites, hotels, hospitals, nursing homes, parking lots, gated communities, stores, shopping malls, and industrial facilities. It is our pleasure to partner up with clients who are looking for high quality Security Services.'
 ]
 const breadcumbMenu = [
     { name: 'Home', route: '/' },
@@ -32,7 +32,7 @@ const AboutPage = () => {
             {/* <Service className="bgColor" /> */}
             <About
                 className="aboutAreaStyleTwo"
-                title="History"
+                title="WELCOME TO Guardian Wings Security!"
                 // subTitle="We Are Expert"
                 images="/images/about/1.jpg"
                 videoId="XxVg_s8xAms"
