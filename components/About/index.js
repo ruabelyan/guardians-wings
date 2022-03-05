@@ -11,7 +11,7 @@ const About = ({ subTitle, title, videoId, className = '', signature, pragraphs,
                 <Grid item md={6} xs={12}
                     className="changeOrder">
                     <Grid className="aboutImageWrap">
-                        <img style={{boxShadow:'1px 1px 8px'}} src={images} alt="" />
+                        <img src={images} alt="" />
                         {videoId && <Button
                             onClick={() => setVideo(true)}
                             className="playBtn">
