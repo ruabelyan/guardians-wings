@@ -22,7 +22,7 @@ const HeaderTop = (props) => {
           <ul className="headerContact">
             <li>
               <PhoneOutlinedIcon />
-              <a className='contact-telephone' href='tel:626.342.6733' title="Call us">Call Us: 714.283.2766</a>
+              <a className='contact-telephone' href='tel:626.342.6733' title="Call us">Call Us: 626.342.6733</a>
               
             </li>
             <li>

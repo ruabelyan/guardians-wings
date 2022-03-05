@@ -57,10 +57,10 @@ const HeaderBottom = props => {
                             <li><Link href='/contact'><a className={router.pathname == "/contact" ? "active" : ""}>Contact</a></Link></li>
                         </ul>
                     </Grid>
-                    {/* <Grid item md={1} sm={6} xs={4}>
+                    <Grid item md={1} sm={6} xs={4}>
                         <Grid className="searchMenuWrapper">
                             <Grid className="searchWrap">
-                                <SearchOutlinedIcon className="search" onClick={clickHandler} />
+                                {/* <SearchOutlinedIcon className="search" onClick={clickHandler} /> */}
                                 <Grid className={trigger ? 'searchform active' : 'searchform'}>
                                     <TextField
                                         placeholder="Search Here"
@@ -83,7 +83,7 @@ const HeaderBottom = props => {
                                 <span className="third"></span>
                             </Grid>
                         </Grid>
-                    </Grid> */}
+                    </Grid>
                 </Grid>
             </Grid>
         </Fragment>

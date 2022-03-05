@@ -7,24 +7,24 @@ import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
 
 const heroSliders = [
     {
-        images: '/images/slider/slide-5.jpg',
+        images: '/images/slider/slide-3.jpg',
         title: 'WORK HARD, FEEL SAFE',
         // subTitle: 'As Like A Friend.',
-        text: 'LOCAL RESPONSE BACKED BY NATIONAL SUPPORT',
+        text: 'Help protect your world with professionally installed smart security systems.',
         button: 'Contact us now'
     },
     {
         images: '/images/slider/slide-1.jpg',
         title: 'BE SURE YOUR FAMILY IS SAFE',
         // subTitle: 'As Like A Friend.',
-        text: 'LOCAL RESPONSE BACKED BY NATIONAL SUPPORT',
+        text: 'Your safety deserves personal attention',
         button: 'Contact us now'
     },
     {
         images: '/images/slider/slide-4.jpg',
         title: 'WE KNOW HOW TO PROTECT YOUR BUSINESS',
         // subTitle: 'As Like A Friend.',
-        text: 'LOCAL RESPONSE BACKED BY NATIONAL SUPPORT',
+        text: 'Life is better when it’s safe',
         button: 'Contact us now'
     },
     // {
