@@ -82,7 +82,7 @@ const FooterArea = () => {
           <Grid item md={4} sm={2} xs={12}>
             <ul className="socialListFooter">
               <li>
-                <a href="#">
+                <a target="_blank" href="https://www.facebook.com/Guardian-Wings-Security-106671495301660/?ref=pages_you_manage">
                   <FacebookIcon />
                 </a>
               </li>
