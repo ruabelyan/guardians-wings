@@ -32,6 +32,7 @@ const services = [
   },
   {
     icon: <AccessibilityTwoToneIcon />,
+    //change to the text
     title: "Mobile Patrol security",
     content:
       "Whether you need to secure an office building, a mall, or a warehouse, you can depend on our mobile patrol units.In addition to patrolling and securing sites.",
@@ -41,15 +42,15 @@ const services = [
     icon: <AssignmentIndTwoToneIcon />,
     title: "Bodyguard services",
     content:
-      "If you’re a VIP, executive, celebrity, rapper, artist, politician, banker or just looking for personal protection and are looking to hire a bodyguard, Fast Guard Service offers the expertise.",
+      "If you’re a VIP, executive, celebrity, rapper, artist, politician, banker or just looking for personal protection and are looking to hire a bodyguard, Fast Guardian wings security offers the expertise.",
     id: 4,
   },
-  {
-      icon: <CastForEducationTwoToneIcon />,
-      title: 'Patrol Division',
-      content: 'he uniformed Patrol Division is the most highly visible component of the department. Working 24 hours a day, seven days a week, the Patrol Division represents the bulk of the department’s staffing.',
-      id: 5
-  },
+  // {
+  //     icon: <CastForEducationTwoToneIcon />,
+  //     title: 'Patrol Division',
+  //     content: 'he uniformed Patrol Division is the most highly visible component of the department. Working 24 hours a day, seven days a week, the Patrol Division represents the bulk of the department’s staffing.',
+  //     id: 5
+  // },
   // {
   //     icon: <HomeWorkTwoToneIcon />,
   //     title: 'Real Estate Law',

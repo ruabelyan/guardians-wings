@@ -8,6 +8,7 @@ export const contactUsHandler = async (req, res) => {
         const EMAIL_USER = "abelyan2421@gmail.com";
         const EMAIL_PASS = "13629Rub!!";
         const RECEIVER_EMAIL = "ru.abelyan@mail.com";
+        debugger;
 
         const transporter = nodemailer.createTransport({
             // host:
@@ -21,7 +22,6 @@ export const contactUsHandler = async (req, res) => {
                 pass: EMAIL_PASS,
             },
         });
-        debugger;
         await transporter.sendMail({
             from: `<${EMAIL_USER}>`,
             to: RECEIVER_EMAIL,
@@ -33,7 +33,7 @@ export const contactUsHandler = async (req, res) => {
                 }</em><br>
                 <strong data-renderer-mark="true">Email: </strong> <em data-renderer-mark="true">${requestModel.email
                 }</em><br>
-                <strong data-renderer-mark="true">Experience: </strong> <em data-renderer-mark="true">${requestModel.address
+                <strong data-renderer-mark="true">Address: </strong> <em data-renderer-mark="true">${requestModel.address
                 }</em><br>
                 <strong data-renderer-mark="true">Phone Number: </strong> <em data-renderer-mark="true">${requestModel.phone
                 }</em><br>
