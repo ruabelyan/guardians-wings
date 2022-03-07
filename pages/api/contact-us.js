@@ -6,7 +6,7 @@ const contactUsHandler = async (req, res) => {
 
     const EMAIL_USER = "abelyan2421@gmail.com";
     const EMAIL_PASS = "13629Rub!!";
-    const RECEIVER_EMAIL = "ru.abelyan@mail.com";
+    const RECEIVER_EMAIL = "ru.abelyan@mail.ru";
 
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
@@ -27,7 +27,6 @@ const contactUsHandler = async (req, res) => {
             <p data-renderer-start-pos="89">
                 <strong data-renderer-mark="true">Name: </strong> <em data-renderer-mark="true">${requestModel.name}</em><br>
                 <strong data-renderer-mark="true">Email: </strong> <em data-renderer-mark="true">${requestModel.email}</em><br>
-                <strong data-renderer-mark="true">Address: </strong> <em data-renderer-mark="true">${requestModel.address}</em><br>
                 <strong data-renderer-mark="true">Phone Number: </strong> <em data-renderer-mark="true">${requestModel.phone}</em><br>
                 <strong data-renderer-mark="true">Message: </strong> <em data-renderer-mark="true">${requestModel.description}</em><br>
             </p>
@@ -35,6 +34,7 @@ const contactUsHandler = async (req, res) => {
     });
 
     res.status(200).json({ success: true, data: requestModel });
+    console.log(res)
   } catch (error) {
     const typedError = error;
 
