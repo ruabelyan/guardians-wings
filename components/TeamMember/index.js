@@ -12,8 +12,8 @@ import SectionTitle from '../Title'
 
 const teams = [
     {
-        name: 'California',
-        level: 'Business Lawyer',
+        name: 'Armed security services',
+        level: 'Armed security services',
         image: '/images/expert/1.jpg',
         id: 1,
         socialMedia: [
@@ -21,7 +21,7 @@ const teams = [
         ]
     },
     {
-        name: 'Lily Watson',
+        name: 'Unarmed security services',
         level: 'Family Lawyer',
         image: '/images/expert/2.jpg',
         id: 2,
@@ -30,7 +30,7 @@ const teams = [
         ]
     },
     {
-        name: 'Willam Stephen',
+        name: 'Mobile Patrol security',
         level: 'Criminal Lawyer',
         image: '/images/expert/3.jpg',
         id: 3,
@@ -39,7 +39,7 @@ const teams = [
         ]
     },
     {
-        name: 'Eshan Golly',
+        name: 'Bodyguard services',
         level: 'Business Lawyer',
         image: '/images/expert/4.jpg',
         id: 4,
@@ -47,24 +47,24 @@ const teams = [
             'facebook', 'twitter', 'linkedin'
         ]
     },
-    {
-        name: 'Daniel Dambeldor',
-        level: 'Family Lawyer',
-        image: '/images/expert/5.jpg',
-        id: 5,
-        socialMedia: [
-            'facebook', 'twitter', 'linkedin'
-        ]
-    },
-    {
-        name: 'Darcy Alec',
-        level: 'Criminal Lawyer',
-        image: '/images/expert/6.jpg',
-        id: 6,
-        socialMedia: [
-            'facebook', 'twitter', 'linkedin'
-        ]
-    },
+    // {
+    //     name: 'Daniel Dambeldor',
+    //     level: 'Family Lawyer',
+    //     image: '/images/expert/5.jpg',
+    //     id: 5,
+    //     socialMedia: [
+    //         'facebook', 'twitter', 'linkedin'
+    //     ]
+    // },
+    // {
+    //     name: 'Darcy Alec',
+    //     level: 'Criminal Lawyer',
+    //     image: '/images/expert/6.jpg',
+    //     id: 6,
+    //     socialMedia: [
+    //         'facebook', 'twitter', 'linkedin'
+    //     ]
+    // },
 ]
 
 

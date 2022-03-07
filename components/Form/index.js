@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Joi from "joi-browser";
 import { Button, Grid, TextField } from "@material-ui/core";
 import { toast } from "react-toastify";
+// import cogoToast from 'cogo-toast';
+
 import axios from "axios";
 class Form extends Component {
   state = {
@@ -122,6 +124,11 @@ class Form extends Component {
         error: error || {},
       });
     } else {
+        axios
+        .post(`/api/contact-us`, request)
+        .then((res) => {
+          console.log(res)
+        });
       this.setState({
         name: "",
         phone: "",
@@ -129,11 +136,7 @@ class Form extends Component {
         address: "",
         description: "",
       });
-      axios
-        .post(`/api/contact-us`, request)
-        .then((res) => {
-          console.log(res)
-        });
+     
       toast.success("Please check Consol log");
     }
   };
@@ -174,7 +177,7 @@ class Form extends Component {
                 className="form-control"
                 type="phone"
               />
-              {this.state.error.phone && <p>{this.state.error.phone}</p>}
+              {this.state?.error?.phone && <p>{this.state?.error?.phone}</p>}
             </Grid>
           </Grid>
           <Grid item sm={6} xs={12}>
@@ -187,7 +190,7 @@ class Form extends Component {
                 className="form-control"
                 type="email"
               />
-              {this.state.error.email && <p>{this.state.error.email}</p>}
+              {this.state?.error?.email && <p>{this.state?.error?.email}</p>}
             </Grid>
           </Grid>
           <Grid item sm={6} xs={12}>

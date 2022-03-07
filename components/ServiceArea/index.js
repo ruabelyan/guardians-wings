@@ -35,7 +35,7 @@ const services = [
     //change to the text
     title: "Mobile Patrol security",
     content:
-      "Whether you need to secure an office building, a mall, or a warehouse, you can depend on our mobile patrol units.In addition to patrolling and securing sites.",
+      "Whether you need to secure an office building, a mall, or a warehouse, you can depend on our mobile patrol units to patrol the premises on foot and with vehicle securing sites",
     id: 3,
   },
   {
