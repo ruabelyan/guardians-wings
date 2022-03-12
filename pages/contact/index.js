@@ -28,7 +28,7 @@ const Contact = () => {
                     <Grid item md={7} xs={12}>
                         <Grid className="contactUsInfo">
                             <h3>Our Contacts</h3>
-                            <p>Guardian Wings we're here to serve you, be it online, over the phone, or in person. Call or email us with any questions, or use the form at the bottom of the page to contact us directly
+                            <p>Guardian Wings, we're here to serve you, be it online, over the phone, or in person. Call or email us with any questions, or use the form at the bottom of the page to contact us directly
                                 </p>
                             {/* <h4>Address</h4>
                             <span>245 King Street, Touterie Victoria 8520 Australia</span> */}
