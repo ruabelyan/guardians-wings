@@ -4,9 +4,9 @@ const contactUsHandler = async (req, res) => {
   try {
     const requestModel = req.body;
 
-    const EMAIL_USER = "abelyan2421@gmail.com";
-    const EMAIL_PASS = "13629Rub!!";
-    const RECEIVER_EMAIL = "ru.abelyan@mail.ru";
+    const EMAIL_USER = "guardianwingsps@gmail.com";
+    const EMAIL_PASS = "NarekKaren2021";
+    const RECEIVER_EMAIL = "djnar19@gmail.com";
 
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
