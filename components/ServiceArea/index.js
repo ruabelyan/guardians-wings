@@ -42,7 +42,7 @@ const services = [
     icon: <AssignmentIndTwoToneIcon />,
     title: "Bodyguard services",
     content:
-      "If you’re a VIP, executive, celebrity, rapper, artist, politician, banker or just looking for personal protection and are looking to hire a bodyguard, Fast Guardian wings security offers the expertise.",
+      "If you’re a VIP, executive, celebrity, rapper, artist, politician, banker or just looking for personal protection and are looking to hire a bodyguard,  Guardian Wings security offers the expertise.",
     id: 4,
   },
   // {
