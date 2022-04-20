@@ -4,6 +4,10 @@ import PhoneOutlinedIcon from "@material-ui/icons/PhoneOutlined";
 import QueryBuilderOutlinedIcon from "@material-ui/icons/QueryBuilderOutlined";
 import RoomOutlinedIcon from "@material-ui/icons/RoomOutlined";
 import Link from "next/link";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import InstagramIcon from "@material-ui/icons/Instagram";
+
 const HeaderTop = (props) => {
   return (
     <Grid className={props.className}>
@@ -12,14 +16,39 @@ const HeaderTop = (props) => {
         alignItems="center"
         className="container headerTopMainWrapper"
       >
-        <Grid item sm={6} md={5} lg={5} xs={12}>
+        <Grid item sm={6} md={5} lg={3} xs={12}>
           <ul className="d-flex accountLoginArea">
-            <li>
+            <li style={{ marginRight: "35px" }}>
               <RoomOutlinedIcon /> California
+            </li>
+            <li>
+              <span style={{ marginRight: "5px", minWidth: "65px" }}>
+                Follow us
+              </span>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/Guardian-Wings-Security-106671495301660/?ref=pages_you_manage"
+              >
+                <FacebookIcon />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <TwitterIcon />
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://instagram.com/guardianwings.security?utm_medium=copy_link"
+              >
+                <InstagramIcon />
+              </a>
             </li>
           </ul>
         </Grid>
-        <Grid item sm={6} md={4} lg={5} xs={12}>
+
+        <Grid item sm={6} md={4} lg={7} xs={12}>
           <ul className="headerContact">
             <li>
               <PhoneOutlinedIcon />

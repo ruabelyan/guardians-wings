@@ -19,6 +19,7 @@ const footerLinks = [
     menus: [
       { name: "Armed security services", route: "/" },
       { name: "Unarmed security services", route: "/" },
+      { name: "Unarmed security services", route: "/" },
       { name: "Bodyguard services", route: "/" },
       { name: "Patrol Division services", route: "/" },
     ],
@@ -26,7 +27,7 @@ const footerLinks = [
   {
     title: "Contact Us",
     menus: [
-      { name: "Phone: (626) 342-6733" },
+      { name: "Phone: 626.342.6733" },
       { name: "Email: guardianwingsps@gmail.com" },
     ],
   },
@@ -80,9 +81,9 @@ const FooterArea = () => {
         <Grid container spacing={3} className="container">
           <Grid item md={8} sm={10} xs={12}>
             {/* <span>Privacy Policy | © 2020 Barristar. All rights reserved</span> */}
-            <span>Copyright © 2022 CA State License - PPO# 121438</span>
+            <span>Copyright © 2022 CA State License - 10087</span>
           </Grid>
-          <Grid item md={4} sm={2} xs={12}>
+          {/* <Grid item md={4} sm={2} xs={12}>
             <ul className="socialListFooter">
               <li>
                 <a
@@ -106,7 +107,7 @@ const FooterArea = () => {
                 </a>
               </li>
             </ul>
-          </Grid>
+          </Grid> */}
         </Grid>
       </Grid>
     </footer>

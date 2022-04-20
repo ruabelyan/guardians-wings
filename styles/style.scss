@@ -1373,6 +1373,9 @@ body {
 .headerArea {
   .headerTop {
     .headerTopMainWrapper {
+      svg:hover {
+        fill: #cea215;
+      }
       border-bottom: 1px solid rgba(255, 255, 255, 0.07);
       padding: 10px 0;
 
@@ -1409,6 +1412,22 @@ body {
     .headerContact {
       justify-content: flex-end;
       margin-right: 20px;
+      @media (max-width: 375px) {
+        justify-content: center;
+        margin-top: 15px;
+      }
+
+      li {
+        margin-left: 15px;
+
+        a {
+          color: #ddd;
+
+          &:hover {
+            color: #cea215;
+          }
+        }
+      }
 
       li {
         &::before {
@@ -1425,6 +1444,9 @@ body {
 
         svg {
           margin-right: 7px;
+        }
+        svg:hover {
+          fill: #cea215;
         }
       }
     }
@@ -1994,8 +2016,6 @@ body {
     flex-wrap: wrap;
     box-sizing: border-box;
 
-   
-
     .serviceIcon {
       background: #cea215;
       height: 100px;
@@ -2013,7 +2033,6 @@ body {
       }
     }
 
-  
     .serviceText {
       padding: 23px 25px;
       width: calc(100% - 95px);
@@ -2853,7 +2872,6 @@ body {
             font-size: 20px;
             display: inline-block;
             margin-right: 3px;
-            
 
             @media (max-width: 1024px) {
               font-size: 16px;
@@ -3034,14 +3052,11 @@ body {
   }
 }
 
-
 .contact-telephone {
-  color:#e0e0e0,
-
+  color: #e0e0e0;
 }
 .contact-telephone:hover {
-  color:#8d8585,
-
+  color: #8d8585;
 }
 
 img {
@@ -3049,22 +3064,22 @@ img {
 }
 
 .custom-grid {
-  padding: 10px; 
-  text-align: 'center';
-  color: red
+  padding: 10px;
+  text-align: "center";
+  color: red;
 }
 .serviceContentCustom {
   display: flex;
-  align-items:center;
+  align-items: center;
 }
 
 .customSvgSize {
   svg {
-    font-size: 60px !important
+    font-size: 60px !important;
   }
 }
 .Toastify {
   .Toastify__progress-bar--default {
-    background:linear-gradient(to right, #272523,#cea215)
+    background: linear-gradient(to right, #272523, #cea215);
   }
 }
