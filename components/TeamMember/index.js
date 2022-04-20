@@ -14,14 +14,16 @@ const teams = [
   {
     name: "Armed security services",
     // level: 'Armed security services',
-    image: "/images/gallery/1.jpg",
+    // image: "/images/gallery/1.jpg",
+    image: "/images/gallery/2.jpg",
     id: 1,
     socialMedia: ["facebook", "twitter", "linkedin"],
   },
   {
     name: "Unarmed security services",
     // level: 'Family Lawyer',
-    image: "/images/gallery/2.jpg",
+    // image: "/images/gallery/2.jpg",
+    image: "/images/gallery/4.jpg",
     id: 2,
     socialMedia: ["facebook", "linkedin"],
   },
@@ -35,7 +37,8 @@ const teams = [
   {
     name: "Bodyguard services",
     // level: 'Business Lawyer',
-    image: "/images/gallery/4.jpg",
+    // image: "/images/gallery/4.jpg",
+    image: "/images/gallery/1.jpg",
     id: 4,
     socialMedia: ["facebook", "instagram"],
   },
@@ -144,7 +147,7 @@ const TeamMember = ({ className = "", title, subTitle, slider, noGutters }) => {
                     <h3> {team.name}</h3>
                     <span>{team.level}</span>
                     <ul>
-                    {team.socialMedia.map((social) => (
+                      {team.socialMedia.map((social) => (
                         <li key={social}>
                           {social === "facebook" && (
                             <a href="https://www.facebook.com/Guardian-Wings-Security-106671495301660/?ref=pages_you_manage">

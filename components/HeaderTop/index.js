@@ -3,6 +3,7 @@ import { Grid, Button, Hidden } from "@material-ui/core";
 import PhoneOutlinedIcon from "@material-ui/icons/PhoneOutlined";
 import QueryBuilderOutlinedIcon from "@material-ui/icons/QueryBuilderOutlined";
 import RoomOutlinedIcon from "@material-ui/icons/RoomOutlined";
+import Link from "next/link";
 const HeaderTop = (props) => {
   return (
     <Grid className={props.className}>
@@ -22,8 +23,13 @@ const HeaderTop = (props) => {
           <ul className="headerContact">
             <li>
               <PhoneOutlinedIcon />
-              <a className='contact-telephone' href='tel:626.342.6733' title="Call us">Call Us: 626.342.6733</a>
-              
+              <a
+                className="contact-telephone"
+                href="tel:(626) 342-6733"
+                title="Call us"
+              >
+                Call Us: (626) 342-6733
+              </a>
             </li>
             <li>
               <QueryBuilderOutlinedIcon />
@@ -33,13 +39,11 @@ const HeaderTop = (props) => {
         </Grid>
         <Hidden smDown>
           <Grid item lg={2} md={3} xs={12} className="text-right">
-            <Button
-              className="btnStyle btnOutlined btnRadius"
-              component="a"
-              href="#"
-            >
-              Free Consultation
-            </Button>
+            <Link href="/contact">
+              <Button className="btnStyle btnOutlined btnRadius" component="a">
+                Free Consultation
+              </Button>
+            </Link>
           </Grid>
         </Hidden>
       </Grid>

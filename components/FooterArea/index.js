@@ -19,7 +19,6 @@ const footerLinks = [
     menus: [
       { name: "Armed security services", route: "/" },
       { name: "Unarmed security services", route: "/" },
-      { name: "Unarmed security services", route: "/" },
       { name: "Bodyguard services", route: "/" },
       { name: "Patrol Division services", route: "/" },
     ],
@@ -27,7 +26,7 @@ const footerLinks = [
   {
     title: "Contact Us",
     menus: [
-      { name: "Phone: 626.342.6733" },
+      { name: "Phone: (626) 342-6733" },
       { name: "Email: guardianwingsps@gmail.com" },
     ],
   },
@@ -42,7 +41,11 @@ const FooterArea = () => {
             <Grid className="footerLogo">
               <Link href="/">
                 <a>
-                  <img style={{objectFit:'contain'}} src="/images/logo/logo4.png" alt="logo" />
+                  <img
+                    style={{ objectFit: "contain" }}
+                    src="/images/logo/logo4.png"
+                    alt="logo"
+                  />
                 </a>
               </Link>
               {/* <p>
@@ -77,12 +80,15 @@ const FooterArea = () => {
         <Grid container spacing={3} className="container">
           <Grid item md={8} sm={10} xs={12}>
             {/* <span>Privacy Policy | © 2020 Barristar. All rights reserved</span> */}
-            <span>Copyright © 2022 CA State License - 10087</span>
+            <span>Copyright © 2022 CA State License - PPO# 121438</span>
           </Grid>
           <Grid item md={4} sm={2} xs={12}>
             <ul className="socialListFooter">
               <li>
-                <a target="_blank" href="https://www.facebook.com/Guardian-Wings-Security-106671495301660/?ref=pages_you_manage">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/Guardian-Wings-Security-106671495301660/?ref=pages_you_manage"
+                >
                   <FacebookIcon />
                 </a>
               </li>
@@ -92,7 +98,10 @@ const FooterArea = () => {
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://instagram.com/guardianwings.security?utm_medium=copy_link">
+                <a
+                  target="_blank"
+                  href="https://instagram.com/guardianwings.security?utm_medium=copy_link"
+                >
                   <InstagramIcon />
                 </a>
               </li>
