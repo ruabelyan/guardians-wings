@@ -57,7 +57,7 @@ const HomePageTwo = () => {
       <Head>
         <meta
           property="og:title"
-          content="Armed security services"
+          content="Guardian Wings Security"
           key="title"
         />
         <title>Home page two</title>

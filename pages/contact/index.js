@@ -13,7 +13,7 @@ const Contact = () => {
       <Head>
         <meta
           property="og:title"
-          content="Armed security services"
+          content="Guardian Wings Security"
           key="title"
         />
         <title>Contact us</title>

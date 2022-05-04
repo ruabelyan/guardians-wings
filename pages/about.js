@@ -22,7 +22,7 @@ const AboutPage = () => {
       <Head>
         <meta
           property="og:title"
-          content="Armed security services"
+          content="Guardian Wings Security"
           key="title"
         />
         <title>About us</title>
