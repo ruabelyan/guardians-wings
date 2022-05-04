@@ -19,7 +19,6 @@ const footerLinks = [
     menus: [
       { name: "Armed security services", route: "/" },
       { name: "Unarmed security services", route: "/" },
-      { name: "Unarmed security services", route: "/" },
       { name: "Bodyguard services", route: "/" },
       { name: "Patrol Division services", route: "/" },
     ],

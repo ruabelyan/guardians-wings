@@ -11,6 +11,11 @@ const Contact = () => {
   return (
     <Fragment>
       <Head>
+        <meta
+          property="og:title"
+          content="Armed security services"
+          key="title"
+        />
         <title>Contact us</title>
       </Head>
       <Breadcumb
