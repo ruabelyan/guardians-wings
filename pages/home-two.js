@@ -60,7 +60,7 @@ const HomePageTwo = () => {
           content="Guardian Wings Security"
           key="title"
         />
-        <title>Home page two</title>
+        <title>Guardian Wings Security</title>
       </Head>
 
       <HeroSlider className="heroSliderAreaStyleTwo" />

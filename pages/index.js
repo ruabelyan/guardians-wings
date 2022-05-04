@@ -60,7 +60,7 @@ const Home = () => {
           content="Guardian Wings Security"
           key="title"
         />
-        <title>Home page</title>
+        <title>Guardian Wings Security</title>
       </Head>
       <HeroSlider />
       <Service className="bgColor" />
